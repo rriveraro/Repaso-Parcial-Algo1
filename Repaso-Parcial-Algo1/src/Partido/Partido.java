@@ -27,7 +27,7 @@ public class Partido {
     }
 
     
-    private void calcularResultado(){
+    public void calcularResultado(){
         if(golesLocal>golesVisitante){
             local.agregarPuntos(3);
         } else if(golesLocal<golesVisitante){
